@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="logoepower.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="16.549473"
+     inkscape:cx="20.212124"
+     inkscape:cy="30.30308"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Slānis 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#52a63d;fill-opacity:1;stroke:#ffffff;stroke-width:0.12;stroke-dasharray:none;stroke-opacity:1"
+       d="M 2.1196521,10.971319 Z"
+       id="path3" />
+    <circle
+       id="path4"
+       style="fill:#52a63d;stroke:#ffffff;stroke-width:0.264583"
+       cx="1.9161655"
+       cy="9.8408375"
+       r="4.2684121e-08" />
+    <circle
+       id="path5"
+       style="fill:#52a63d;stroke:#ffffff;stroke-width:0.264583"
+       cx="2.1224782"
+       cy="10.965667"
+       r="4.2684121e-08" />
+    <circle
+       id="path6"
+       style="fill:#52a63d;stroke:#ffffff;stroke-width:0.264583"
+       cx="1.9331228"
+       cy="9.9001875"
+       r="4.2684121e-08" />
+    <path
+       style="fill:#52a63d;fill-opacity:1;stroke:#ffffff;stroke-width:0.0600001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2.1196521,10.971319 c 0,0 0.145881,0.544435 0,0 z"
+       id="path7" />
+    <g
+       id="g10"
+       transform="translate(-0.05652406,-0.26001066)">
+      <g
+         id="g9"
+         transform="translate(0.07913367,-0.09043849)">
+        <path
+           id="path1"
+           style="fill:#52a63d;fill-opacity:1;stroke:none;stroke-width:0.12;stroke-dasharray:none;stroke-opacity:1"
+           d="M 6.1836019,3.4364827 A 2.7018497,2.7696786 0 0 0 3.481958,6.2063395 2.7018497,2.7696786 0 0 0 6.1836019,8.9761963 2.7018497,2.7696786 0 0 0 8.8857625,6.2063395 2.7018497,2.7696786 0 0 0 6.1836019,3.4364827 Z M 4.437972,4.580599 C 4.47508,4.588089 4.7681317,4.664204 5.5417806,4.8684367 8.0174561,5.5219788 6.8223226,8.7601888 6.8223226,8.7601888 4.4617949,7.2416641 5.5128418,4.8772217 5.5128418,4.8772217 c 0,0 -1.1565087,-0.3130987 -1.0748698,-0.2966227 z m 1.7802531,1.7482137 c 0,0 0.121873,1.4510998 0.4960937,2.2055501 L 6.224943,6.3386312 Z" />
+        <path
+           style="fill:#deed24;fill-opacity:1;stroke:none;stroke-width:0.075;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+           d="M 8.0188795,7.0918849 7.9240779,5.5723552 7.4658692,6.1421788 7.1182628,4.2807552"
+           id="path8" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:1.41111px;fill:#38812f;fill-opacity:1;stroke:none;stroke-width:0.0750001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         x="3.6175396"
+         y="9.914319"
+         id="text9"><tspan
+           sodipodi:role="line"
+           id="tspan9"
+           style="fill:#38812f;fill-opacity:1;stroke-width:0.075"
+           x="3.6175396"
+           y="9.914319">Epower</tspan></text>
+    </g>
+  </g>
+</svg>
