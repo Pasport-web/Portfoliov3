@@ -5,57 +5,118 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>Mans portfolio datorika 10.klase</title>
+        <title>Portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-        <style>
-        </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="mansStils.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="mansStils.css" type="text/css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
-    <body>
-        <nav class="navbar navbar-dark bg-dark">
-            <span class="navbar-brand mb-0 h1">Navbar</span>
-        </nav>
-        <h1>10. klase datorika</h1>
-        <div>
-            <h2>Rastgrafika</h2>
-            <h3>Gimp</h3>
-            <p><img  src="images/Gimp.png" id="Gimp" style="width:576px;height:300px;">Mēs apstrādājām attēlus programmā gimp
-            <p><img id="animētais gifs"> Veidojām animētos gif failus
+    <body style="background-color:#333333;">
+    <nav class="navbar navbar-inverse bg-dark">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Portfolio</a>
         </div>
         <div>
-            <h2> Vektorgrafika </h2>
-            <h3>Inkscape </h3>
-            <p><img src="images/logoepower.jpg" id="logo kompānija">Veidojām logo priekš kompānijas
-            <h3>3D modelēšana pratforma Tinkercad</h3>
-            <p><img src="images/Tinkercad.jpg" id="puzles gabaliņš"> Veidojām 3d puzli ar logo ko paši veidojām
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Par mani</a></li>
+              <li><a href="#Tekstapstrade">Tekstapstrāde</a></li>
+              <li><a href="#Attelapstrade">Attēlapstrade</a></li>
+              <li><a href="#3Dmodel">3D modelēšana</a></li>
+              <li><a href="#videoapstr">Videoapstrāde</a></li>
+              <li><a href="#Izklajlap">Izklājlapas</a></li>
+              <li><a href="otrais.html"  target="_blank">Aizsardzība pret izsekošanu</a></li>
+            </ul>
         </div>
-        <div>
-            <h2>video montāža</h2>
-            <h3>Climpchamp</h3>
-            <p><iframe src="https://eduriga-my.sharepoint.com/personal/klagzdins5_edu_riga_lv/_layouts/15/embed.aspx?UniqueId=84cf8f86-20b0-4d2c-ab2e-5bd9dc94a6f7&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="3D_modelēšana - Made with Clipchamp.mp4"></iframe> 
-                Mēs veidojām video par 3d puzles veidošanu
+    </nav>
+    <div class="hero">
+        <div class="hero-h1">Par mani</div>
+        <div class="hero-text">Es esmu Kristaps Lagzdiņš,
+        mācos 10. klasē un macību gada laikā esmu apguvis iemaņas,
+        ko nekad neaizmirsīšu datorikā. Pats brīvajā laikā nodarbojos ar sacensību programēšanu,
+        tapēc mani šis priekšmets intresē un esmu labs padomu devējs darbā ar datoru.
         </div>
-        <div> 
-            <h2>Teksta apstrāde</h2>
-            <h3>Word</h3>
-            <div>
-                <p>Mēs iemācijāmies rīkoties ar "mailling" rīku word programmā</p>
-                <img src="images/word_mailling.jpg" id="word mailing rīks">
-            </div>
-            <div>
-                <p>Iemācijāmies lietot atsauces</p>
-                <img src="images/Word_atsauces.jpg" id="word atsauces rīks">
-            </div>
+    </div>
+    <div id="Textapstrade">
+        <div class="hero-h1">
+            Tekstapstrāde
         </div>
-        <div>
-            <h2>Izklājlapas</h2>
-            <h3>Ekcell platformā</h3>
-            <div class="container-fluid">
-                <p>Iemācijāmies analizēt datus un tos aprakstīt vizuāli ar grafu palīdzību</p>
-                <img src="images/Datu_analīze.jpg" id="Datu analīze platformā Excell">
+        <div class="att">
+            <img src="img/ats.jpg" alt="Bilde ar uzdevumu par atsaucēm">
+            <div class="hero-text">
+                Apguvu, kā darboties ar mailing rīku Ms word vīdē.
+                Es esmu pielietojis Ms word fizikas labrotorijas darba veidoišanā,
+                aplikācija palīdz izkārtot informāciju saprotami,
+                un ar to ir parsteidzoši viegli rīkoties.
             </div>
         </div>
+    </div>
+    <div id="Attelapstrade">
+        <div class="hero-h1">
+            Attēlapstrāde
+        </div>
+        <div class="hero-h2">
+            Rastrgrafika
+        </div>
+        <div class="att">
+            <img src="img/Vizu.jpg" alt="Stencil veidošanai izmantotais apstrādātais attēls" style="max-width:300px">
+            <div class="hero-text">
+                Esmu veidojis projektu vizuālajā mākslā,
+                kuru man palīdzēja veidot prasmes rastrgrafikā,
+                precīzāk, prasmes platformā Gimp.
+                Projekta galvanais uzsvars bija uz “stencil” mākslu.
+            </div>
+        </div>
+        <div class="hero-h2">
+            Vektorgrafika
+        </div>
+        <div class="att">
+            <img src="img/Logo.jpg" alt="Priekš pasūtītāja veidotais logo" style="width: 300px"/>
+            <div class="hero-text">
+                Veidoju logo priekš pasūtītāja aplikācijā Inkscape.
+                Zaļā krāsa raksturo zaļo enerģiju,
+                auga lapa apzīmē saskaņu ar vidi,
+                atjaunojamo enerģiju. Zibens apzīmē enerģiju un spēku. 
+            </div>
+        </div>
+    </div>
+    <div id="3Dmodel">
+        <div class="hero-h1">
+            3D modelēšana
+        </div>
+        <div class="att">
+            <img src="img/Tinkercad.jpg" alt="bilde no 3d puszles modeļa Tinkercad vietnē" style="max-width:300px;height: auto;">
+            <div class="hero-text">Mūsu komanda modelēja 3D puzli ar pasūtītāja pieprasīto logo.
+                Esmu apguvis prasmes rīkoties ar Tinkercad vietni.
+                Jau būdams mazāks piedalījos robotikas pulciņa,
+                kur man tika iemācīti 3D modelēšanas pamati.
+            </div>
+        </div>
+    </div>
+    <div id="videoapstr">
+        <div class="hero-h1">Video apstrāde</div>
+        <div class="att">
+            <iframe src="https://eduriga-my.sharepoint.com/personal/klagzdins5_edu_riga_lv/_layouts/15/embed.aspx?UniqueId=84cf8f86-20b0-4d2c-ab2e-5bd9dc94a6f7&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="320" height="180" frameborder="0" scrolling="no" allowfullscreen title="3D_modelēšana - Made with Clipchamp.mp4"></iframe> 
+            <div class="hero-text">
+                Es veidoju reklāmas rulīti,
+                kurā bija aprakstīta 3D puzles veidošana.
+                Apguvu prasmes apietes ar vietni “MS clipchamp”.
+            </div>
+        </div>
+    </div>
+    <div id="Izklajlap">
+        <div class="hero-h1">Izklājlapas</div>
+        <div class="att">
+            <img src="img/lab_darb.jpg" alt="Labratorijas darbs ko veicu ar MS Excell palīdzību" style="width: 300px">
+            <div class="hero-text">
+                Apkopoju laboratorijas datus ar izklājlapu palīdzību,
+                protu platformā “MS Excell” sakārtot informāciju,
+                informāciju parvērst vizuāli grafikā.
+            </div>
+        </div>
+    </div>
     </body>
 </html>

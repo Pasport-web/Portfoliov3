@@ -1,0 +1,68 @@
+div{
+   padding:10px;
+   bottom: 30px;
+}
+body{
+    background-color:#333333;
+    color : #A9A9A9
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/Kristaps.JPG');
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding:0;
+}
+.hero-h1{
+    font-size: 80px;
+    text-align: center;
+    color: #A9A9A9;
+}
+.hero-h2{
+    font-size: 40px;
+    text-align: left;
+    color: #A9A9A9;
+}
+.hero-text{
+    font-size: 15px;
+    color: #A9A9A9;
+    text-align: center;
+    padding: 10px;
+}
+.att{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.3dt{
+    display: flex;
+    flex-direction:column;
+}
+@media(max-width: 800px){
+    .hero-h1{
+        font-size:60px
+    }
+}
+@media(max-width: 680px){
+    .hero-h1{
+        font-size:40px
+    }
+    .att{
+        display: flex;
+        flex-direction: column;
+    }
+}
