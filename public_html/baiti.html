@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Baiti</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            function lasaKib(){
+                let laiks=document.getElementById("laik");
+                document.getElementById("tex").value=Number(laiks.value)*2500/8;
+                
+            }
+            function lasaKb(){
+                let laiks=document.getElementById("laik");
+                document.getElementById("tex").value=Number(laiks.value)*2500;
+                
+            }
+        </script>
+        <form>
+            <p>Apreiķini cik dauzd informācijas var lejuplādēt
+            <p><input id="laik" name="laik" type="text" onclick="style='border:5px'">sekundēs, ja interneta ātrums ir 25 MBps </p>
+        <p>Atbilde</p>
+        <input id="tex" name="tex" type="text" value=" ">
+        <input type="radio" id="Kib" name="merv" onclick="lasaKib()"><label for="Kib">KiB</label>
+        <input type="radio" id="Kb" name="merv" onclick="lasaKb()"><label for="Kb">KB</label>
+        </form>
+    </body>
+</html>
